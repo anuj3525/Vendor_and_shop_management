@@ -15,6 +15,7 @@ Geopy -->
 
 <!-- Installation
 activate a virtual environment: -->
+python -m venv venv
 source venv/bin/activate  # For macOS/Linux
 venv\Scripts\activate  # For Windows
 
@@ -30,13 +31,11 @@ python manage.py migrate
 <!-- 3. Create a superuser (optional): -->
 python manage.py createsuperuser
 
-use my own created if dont want to createsuperuser 
-email : ap57097@gmail.com
-psw : 1234
+
 
 <!-- 5. Run the Server -->
 python manage.py runserver
 
 
 NOTE:- Run all cmd in prompt
-
+Note :- All endpoints are tested on postman and worked perfectly.
